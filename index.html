@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Html</title>
+    <link rel="stylesheet" href="assets/css/style2.css">
+</head>
+<body>
+        <div class="wrapper">
+            <h2>Form Data</h2>
+
+            <form action="" method="POST">
+                <div class="tabel-form">
+                    <label for="">NIM</label>
+                    <input type="number" placeholder="Masukkan NIM" required>
+                </div>
+                <div class="tabel-form">
+                    <label for="">Nama</label>
+                    <input type="text" placeholder="Masukkan Nama Lengkap" required>
+                </div>
+                <div class="tabel-form">
+                    <label for="">Tanggal Lahir</label>
+                    <input type="date">
+                </div>
+                <div class="tabel-form">
+                    <label for="">Email</label>
+                    <input type="email" placeholder="Masukkan Email" required>
+                </div>
+                <div class="tabel-form">
+                    <label for="">Berat Badan</label>
+                    <input type="number" placeholder="KG" required>
+                </div>
+                <div class="tabel-form">
+                    <label for="">Tinggi Badan</label>
+                    <input type="number" placeholder="CM" required>
+                </div>
+                <div class="tabel-form">
+                    <label for="">Fakultas</label>
+                    <select type="checkbox">
+                        <option >*Pilih Fakultas </option>
+                        <option>Fakultas Teknik dan Kejuruan</option>
+                        <option>Fakultas Kedokteran</option>
+                        <option>Fakultas Bahasa dan Seni</option>
+                        <option>Fakultas Olahraga dan Kesehatan</option>
+                        <option>Fakultas Matematika dan Ilmu Pengetahuan Alam</option>
+                        <option>Fakultas Ilmu Pendidikan</option>
+                        <option>Fakultas Hukum dan Ilmu Sosial</option>
+                        <option>Fakultas Ekonomi</option>
+                    </select>
+                </div>
+                <div class="tabel-form">
+                    <label for="">Jenis Kelamin</label>
+                    <input type="radio" name="jeniskelamin"> Pria
+                    <input type="radio" name="jeniskelamin"> Wanita
+                </div>
+                <div class="tabel-form">
+                    <label for="">Minat</label>
+                    <input type="checkbox"> Pemrograman Mobile
+                    <input type="checkbox"> Pemrograman Web
+                    <input type="checkbox"> Pemrograman Dekstop
+                </div>
+                <div class="tabel-form">
+                    <button type="submit" class="kirim">Simpan Data</button>
+                    <button type="reset" class="hapus">Hapus Data</button>
+                </div>
+            </form>
+
+        </div>
+</body>
+</html>
